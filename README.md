@@ -1,70 +1,19 @@
-# Nuxt-Whois
 
-Nuxt-Whois 是一个基于 Nuxt3、Tailwind CSS 和 Xep-Whois 构建的Whois查询工具。它提供了一个简洁、响应式的界面，用于查询域名的Whois信息，包括域名所有者、注册状态、到期时间等信息。
+<div align="center">
 
-## 特性
+<h1 align="center">Nuxt-Whois</h1>
+<p align="center">一款好用的 Whois工具，最新技术栈的标准化规范项目。</p> 
 
-- **主题切换**：支持深色和浅色模式，可根据用户偏好或系统设置自动切换。
-- **语言切换**：提供多语言支持，方便不同语言用户使用。
-- **时区切换**：支持时区设置，确保时间信息的准确性。
-- **Dns查询**：支持Dns查询，方便用户查看域名的Dns信息。
-- **自定义后缀**：支持自定义Whois服务器后缀，方便用户查询不同后缀的域名。
 
-## 更新说明
+# 目录结构
+    - server 后端APi
+    - admin  管理后台
+    - web    前端展示
 
-- 2024.4.7 增加 Go 后端 完善后台管理 增加用户自定义主题色 （目前基础合并，三天后会提交正式，禁止同步当前）
-- 2024.3.25 抛弃原来 NuxtUi 改用 NaiveUi 重构中 后台增加中 当前版本无法上线使用
-- 2024.3.18 重构V2版本 预计三天内完成。
-
-### 内容修改
-
-    大部分多语言文字都在lang文件夹下或者.env文件，可以自行修改。
-
-### 环境要求
-
-- Node.js 18.x 或更高版本
-- NPM 或 Yarn
-
-### 交流群组
-
-![QQ群图片](./img/qrcode.jpg)
-
-## 图片预览
-
-![首页图片](./img/home.png)
-
-### 安装
-
-克隆项目到本地：
-
-```bash
-git clone https://github.com/7836246/Nuxt-Whois.git
-cd Nuxt-Whois
-
-# 使用 PNPM
-
-pnpm install
-
-# 或使用 NPM
-
-npm install
-
-# 或使用 Yarn
-
-yarn
-```
-
-### 运行
-
-```bash
-
-# 使用 PNPM
-
-pnpm dev
-
-    
-```
+Todo: 当前 v2 版本正在制作中,敬请期待 !
 
 # 免责声明
-
 本项目开源仅供学习使用，不得用于任何违法用途，否则后果自负，与本人无关。使用请保留项目地址谢谢。
+
+# License
+本项目遵循 [GPL-3.0 协议](./LICENSE)许可证。
